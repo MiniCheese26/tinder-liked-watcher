@@ -1,8 +1,8 @@
 # What is this?
 
-This is a simple tool that watches your Tinder likes and retrieves an un-blurred photo of their profile.
+This is a simple tool that watches your Tinder likes and retrieves an un-blurred photo from their profile.
 
-Each like is then saved to a file inside a JSON array, containing the profile ID, photo URL and timestamp.
+Each like is then saved to a file containing a JSON array of objects, each containing the profile ID, photo URL and timestamp.
 
 This is meant to be run persistently as a service to watch for likes.
 
