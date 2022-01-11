@@ -1,0 +1,17 @@
+{
+  "name": "tinder-liked-watcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "run": "yarn run build && node build/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "@types/node-fetch": "^3.0.3",
+    "node-fetch": "^3.1.0",
+    "typescript": "^4.5.4"
+  }
+}
